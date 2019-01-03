@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LocalStorage</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar nav-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Local Storage</a>
+    </nav>
+
+    <div class="container p-4">
+
+        <form id="form" class="row">
+            <div class="form-group row col-12">
+                <input type="text" id="tarea" class="form-control col-8" name="input" placeholder="ingresa tu tarea">
+                <button id="btn" class="btn btn-primary col-2">Guardar</button>
+            </div>
+        </form>
+        <div id="tasks" class="row">
+            <div class="alert alert-danger d-flex justify-content-between col-12">
+                    <div>
+                        <p>Tarea</p>
+                    </div>
+                    <div>
+                        <i class="material-icons">
+                            done
+                            </i>
+                    <i class="material-icons">
+                            delete
+                            </i>
+                    </div>
+
+            </div>
+        </div>
+        
+    
+    </div>
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
